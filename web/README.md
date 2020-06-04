@@ -2,7 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
-In the web directory, you can run:
+### In the web directory, you can run:
 
 ### `npm start`
 
@@ -13,7 +13,7 @@ The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
 
-In the server directory, you can run:
+### In the server directory, you can run:
 
 ### `npm run dev`
 
