@@ -4,8 +4,7 @@ import knex from '../database/connection';
 class ItemsController {
   async index(req: Request, res: Response) {
     //SELECT * FROM ITEMS
-    const items = await knex('items').select('*');
-    
+    const items = await knex('items').select('*');    
   
     const serializedItems = items.map(item => {
       return {
